@@ -1,4 +1,4 @@
-package controllers;
+package app.business;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ public class User {
 	   @RequestMapping("/")
 	    @ResponseBody
 	    String home() {
-	        return "Hello World!";
+	        return "User";
 	    }
 	
 }
